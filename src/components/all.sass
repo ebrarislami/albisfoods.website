@@ -1,6 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-body
+body, *
   font-family: 'Playfair Display', serif !important
   font-style: italic
 
@@ -160,3 +160,36 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+.img-bg
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  background: $primary
+  opacity: 0.85
+
+.landing-content
+  z-index: 10000
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+.landing-content .landing-logo
+  position: absolute
+  left: 0
+  top: 0
+  width: 9rem
+
+.landing-content .landing-btn
+  background: $secondary
+  outline: none
+  color: $white
+  border: none
+  padding: 1rem 1.3rem
+  cursor: pointer
+
+.landing-content .landing-btn:hover
+  background: darken($secondary, 10)
+
