@@ -5,6 +5,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero/Hero";
 import Contact from "../components/Contact/Contact";
+import AboutAlbis from "../components/AboutAlbis/AboutAlbis";
 
 export const IndexPageTemplate = ({
   image,
@@ -17,6 +18,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Hero image={image} />
+    <AboutAlbis />
     <Contact />
   </div>
 );
