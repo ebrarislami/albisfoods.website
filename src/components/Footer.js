@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
@@ -13,7 +12,7 @@ const Footer = class extends React.Component {
           <div className="container">
             <div style={{ maxWidth: "100vw" }} className="columns">
               <div className="column is-4">
-                <img src={logo} class="logo" />
+                <img alt="Albis logo" src={logo} className="logo" />
               </div>
               <div className="column is-6"></div>
               <div className="column is-2 social">
@@ -21,6 +20,7 @@ const Footer = class extends React.Component {
                 <a
                   title="facebook"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://facebook.com/albisfoods"
                 >
                   <img
@@ -32,6 +32,7 @@ const Footer = class extends React.Component {
                 <a
                   title="instagram"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://instagram.com/albisfoods"
                 >
                   <img
@@ -44,7 +45,9 @@ const Footer = class extends React.Component {
             </div>
           </div>
         </div>
-        <p class="footer-copy">AlbisFoods 2020 &copy; All Rights reserved.</p>
+        <p className="footer-copy">
+          AlbisFoods 2020 &copy; All Rights reserved.
+        </p>
       </footer>
     );
   }

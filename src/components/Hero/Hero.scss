@@ -1,0 +1,40 @@
+@import "../variables";
+
+.img-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: $primary;
+  opacity: 0.85;
+}
+
+.landing-content {
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15%;
+}
+
+.landing-content .landing-logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 9rem;
+}
+
+.landing-content .landing-btn {
+  background: $secondary;
+  outline: none;
+  color: $white;
+  border: none;
+  padding: 1rem 1.3rem;
+  cursor: pointer;
+  transition: 0.4s background;
+}
+
+.landing-content .landing-btn:hover {
+  background: darken($secondary, 10);
+}

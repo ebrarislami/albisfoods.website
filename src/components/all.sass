@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import 'variables'
 
 body, *
   font-family: 'Playfair Display', serif !important
@@ -10,18 +11,6 @@ html, body, #___gatsby
 
 header, main, footer
   flex-shrink: 0
-
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
-
-$primary: #331314
-$secondary: #C2996A
-$primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
-$whie: white
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -160,36 +149,4 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
-
-.img-bg
-  position: absolute
-  left: 0
-  right: 0
-  top: 0
-  bottom: 0
-  background: $primary
-  opacity: 0.85
-
-.landing-content
-  z-index: 10000
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-.landing-content .landing-logo
-  position: absolute
-  left: 0
-  top: 0
-  width: 9rem
-
-.landing-content .landing-btn
-  background: $secondary
-  outline: none
-  color: $white
-  border: none
-  padding: 1rem 1.3rem
-  cursor: pointer
-
-.landing-content .landing-btn:hover
-  background: darken($secondary, 10)
 
