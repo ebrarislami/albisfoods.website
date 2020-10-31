@@ -3,10 +3,12 @@ import logo from "../../img/logo.png";
 import dellaNonna from "../../img/della-nonna.svg";
 import "./Hero.scss";
 import { Link } from "gatsby";
+import Header from "../Header/Header";
 
 const Hero = ({ image }) => (
-  <div
-    className="landing full-width-image margin-top-0 hero"
+  <section
+    id="#home"
+    className="landing full-width-image margin-top-0"
     style={{
       backgroundImage: `url(${
         !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -14,19 +16,20 @@ const Hero = ({ image }) => (
       height: "100vh",
     }}
   >
+    <Header activeLink={window.location.hash} />
     <div className="img-bg"></div>
     <div className="landing-content">
-      <img alt="Albis logo" src={logo} className="landing-logo" />
-      <img
+      {/* <div className="mouse">
+        <p>Scroll</p>
+      </div> */}
+      {/* <img alt="Albis logo" src={logo} className="landing-logo" /> */}
+      {/* <img
         alt="Della nonna logo"
         src={dellaNonna}
         className="della-nonna-logo"
-      />
-      <Link to="/della-nonna">
-        <button className="landing-btn">Go To Della Nonna</button>
-      </Link>
+      /> */}
     </div>
-  </div>
+  </section>
 );
 
 export default Hero;

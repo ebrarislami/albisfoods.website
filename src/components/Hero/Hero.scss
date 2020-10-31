@@ -10,19 +10,36 @@
   opacity: 0.85;
 }
 
-.landing-content {
-  z-index: 10000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: -15%;
-}
+.hero {
+  .landing-content {
+    z-index: 10000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
 
-.landing-content .landing-logo {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 9rem;
+    @media screen and (max-width: 500px) {
+      margin-top: 50%;
+    }
+  }
+
+  .della-nonna-logo {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+
+    @media screen and (max-width: 500px) {
+      width: 15rem;
+    }
+  }
+
+  .landing-content .landing-logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9rem;
+  }
 }
 
 .landing-content .landing-btn {
