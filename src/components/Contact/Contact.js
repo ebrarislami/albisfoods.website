@@ -17,6 +17,7 @@ const Contact = () => {
       map,
       title: "Hello World!",
     });
+    return marker;
   };
 
   return (
