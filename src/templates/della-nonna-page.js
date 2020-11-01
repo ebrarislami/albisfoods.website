@@ -4,18 +4,12 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Hero from "../components/HeroDellaNonna/Hero";
+import FeaturedProducts from "../components/FeaturedProducts/FeaturedProducts";
 
 export const DellaNonnaPageTemplate = ({ image }) => (
   <div>
     <Hero image={image} />
-    <section
-      id="about"
-      style={{ height: "100vh", backgroundColor: "red" }}
-    ></section>
-    <section
-      id="products"
-      style={{ height: "100vh", backgroundColor: "red" }}
-    ></section>
+    <FeaturedProducts />
     {/* <AboutAlbis /> */}
     {/* <Contact /> */}
   </div>
