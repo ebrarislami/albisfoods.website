@@ -301,3 +301,15 @@ $animDuration: 5s;
     color: $colorOutline;
   }
 }
+
+.slogan {
+  margin-top: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  & > h1 {
+    font-size: 3rem;
+    background-color: $secondary;
+  }
+}

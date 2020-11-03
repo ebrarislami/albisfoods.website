@@ -5,12 +5,13 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Hero from "../components/HeroDellaNonna/Hero";
 import FeaturedProducts from "../components/FeaturedProducts/FeaturedProducts";
+import AboutAlbis from "../components/AboutAlbis/AboutAlbis";
 
 export const DellaNonnaPageTemplate = ({ image }) => (
   <div>
     <Hero image={image} />
+    <AboutAlbis />
     <FeaturedProducts />
-    {/* <AboutAlbis /> */}
     {/* <Contact /> */}
   </div>
 );

@@ -29,6 +29,12 @@ const Hero = ({ image }) => {
         src={dellaNonna}
         className="della-nonna-logo"
       /> */}
+
+      <div className="slogan">
+        <h1>
+        &nbsp;&nbsp;&nbsp;Deserts. The New Generation.&nbsp;&nbsp;&nbsp;
+        </h1>
+      </div>
       </div>
     </section>
   );

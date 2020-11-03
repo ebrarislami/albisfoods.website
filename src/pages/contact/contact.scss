@@ -19,7 +19,8 @@
   }
 
   .form-container {
-    background-color: $secondary;
+    background-color: lighten($primary, 20%);
+    box-shadow: inset 0px 0px 12px 0px rgba(0,0,0,0.75);
     padding: 4rem;
 
     button {
@@ -47,6 +48,8 @@
       height: 100%;
       width: 100%;
       z-index: -1;
+      object-fit: cover;
+      filter: blur(8px);
     }
   }
 }

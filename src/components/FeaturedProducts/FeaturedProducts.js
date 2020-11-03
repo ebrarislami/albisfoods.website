@@ -38,7 +38,7 @@ const FeaturedProducts = () => {
     <section id="products" className="featured-products">
       <div className="product-container">
         <div className="product-info">
-          <h2>Della Nonna Roche</h2>
+          <h1>Della Nonna Roche</h1>
           <p>
             Tasty cold dessert suitable for all season, made form milk chocolate
             mousse, shiny and crispy milk chocolate glaze with hazelnut, on
@@ -50,7 +50,7 @@ const FeaturedProducts = () => {
       <div className="product-container reverse">
         <img className="product-image" src={dessert2} />
         <div className="product-info">
-          <h2>Bacio Bianco</h2>
+          <h1>Bacio Bianco</h1>
           <p>
             Tasty cold dessert suitable for all season, made from white
             chocolate and hazelnut mousse, with shiny white chocolate glaze on a

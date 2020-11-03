@@ -4,11 +4,12 @@ import "./Header.scss";
 import { Link } from "gatsby";
 // import { AnchorLink } from "gatsby-plugin-anchor-links";
 import scrollTo from "gatsby-plugin-smoothscroll";
+import AboutAlbis from "../AboutAlbis/AboutAlbis";
 
 const Header = ({ activeLink }) => (
   <ul className="header">
     <li
-      onClick={() => scrollTo("#home")}
+      onClick={() => window.location.href = '/'}
       className={(activeLink === "#home" || activeLink === "") && "active"}
     >
       {/* <a href="/della-nonna#home">Home</a> */}

@@ -31,11 +31,11 @@ const Contact = () => {
           </div>
           <div className="info">
             <img alt="Email logo" src={emailLogo} />
-            <span>admin@albisfoods.com</span>
+            <span>info@albisfoods.com</span>
           </div>
           <div className="info">
             <img alt="Phone logo" src={phoneLogo} />
-            <span>+389 70 xxx xxx</span>
+            <span>+389 78 222 422</span>
           </div>
         </div>
       </div>

@@ -14,12 +14,13 @@
       min-height: 10rem;
       padding: 2rem;
 
-      h2 {
+      h1 {
         color: $secondary;
         font-weight: bold;
         width: fit-content;
         position: relative;
         margin-bottom: 2rem;
+        font-size: 3rem;
 
         &:after {
           content: "";

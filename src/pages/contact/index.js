@@ -1,7 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
-import contactBg from "../../img/contact-image.jpg";
+import contactBg from "../../img/desserts/DSC09324.jpg";
 import "./contact.scss";
 import Header from "../../components/Header/Header";
 import Contact from "../../components/Contact/Contact";
@@ -65,7 +65,7 @@ export default class Index extends React.Component {
                   </label>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={"name"}>
+                  <label placeholder="John Done" className="label" htmlFor={"name"}>
                     Your name
                   </label>
                   <div className="control">
@@ -80,7 +80,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label" htmlFor={"email"}>
+                  <label placeholder="john.doe@example.com" className="label" htmlFor={"email"}>
                     Email
                   </label>
                   <div className="control">

@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <Hero image={image} />
-    <AboutAlbis />
+    {/* <AboutAlbis /> */}
     <Contact />
   </div>
 );
